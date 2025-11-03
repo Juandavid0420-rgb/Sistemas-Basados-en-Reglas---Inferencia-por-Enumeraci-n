@@ -300,9 +300,6 @@ P(Burglary=F | evidencia) = 0.715828
 * **Universidad:** Pontificia Universidad Javeriana – Ingeniería de Sistemas
 * **Lenguaje:** Python 3.10+
 
----
-
-```
 
 
 
