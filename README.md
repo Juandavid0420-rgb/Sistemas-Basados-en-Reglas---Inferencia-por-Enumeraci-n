@@ -1,5 +1,5 @@
 
-```markdown
+
 # Motor de Inferencia por Enumeración en Redes Bayesianas (Python, OOP)
 
 Proyecto académico: implementación completa, genérica y documentada de un **motor de inferencia por enumeración** sobre **Redes Bayesianas** con carga de **estructura** y **tablas de probabilidad (CPTs)** desde archivos.
@@ -304,7 +304,6 @@ P(Burglary=F | evidencia) = 0.715828
 
 ```
 
----
 
 
-```
+
