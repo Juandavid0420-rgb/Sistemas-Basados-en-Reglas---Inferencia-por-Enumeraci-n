@@ -1,0 +1,33 @@
+{
+  "Burglary": {
+    "parents": [],
+    "table": { "": 0.001 }
+  },
+  "Earthquake": {
+    "parents": [],
+    "table": { "": 0.002 }
+  },
+  "Alarm": {
+    "parents": ["Burglary", "Earthquake"],
+    "table": {
+      "Burglary=T,Earthquake=T": 0.95,
+      "Burglary=T,Earthquake=F": 0.94,
+      "Burglary=F,Earthquake=T": 0.29,
+      "Burglary=F,Earthquake=F": 0.001
+    }
+  },
+  "JohnCalls": {
+    "parents": ["Alarm"],
+    "table": {
+      "Alarm=T": 0.90,
+      "Alarm=F": 0.05
+    }
+  },
+  "MaryCalls": {
+    "parents": ["Alarm"],
+    "table": {
+      "Alarm=T": 0.70,
+      "Alarm=F": 0.01
+    }
+  }
+}
